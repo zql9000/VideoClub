@@ -1,0 +1,12 @@
+<mat-sidenav-container class="container">
+  <mat-sidenav mode="side" [opened]="opened" style="padding: 20px;">
+      <a [routerLink]="['/']" style="display: block">Home</a>
+      <a [routerLink]="['/peliculas']" style="display: block">Peliculas</a>
+      <a [routerLink]="['/clientes']" style="display: block">Clientes</a>
+      <a [routerLink]="['/alquileres']" style="display: block">Alquileres</a>
+  </mat-sidenav>
+
+  <mat-sidenav-content class="content">
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
