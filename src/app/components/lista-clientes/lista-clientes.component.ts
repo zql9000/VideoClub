@@ -10,7 +10,7 @@ import {MatSort, MatTableDataSource} from '@angular/material';
 })
 export class ListaClientesComponent implements OnInit {
   clientes: Cliente[] = [
-    {id: 1, nombre: 'Horacio Larrea', direccion: 'Siempreviva 123'},
+    {id: 1, nombre: 'Esteban Larrea', direccion: 'Siempreviva 123'},
     {id: 2, nombre: 'Carlos Vives', direccion: 'Viva 321'},
     {id: 3, nombre: 'Abel Pintos', direccion: 'Calle 1 741'},
     {id: 4, nombre: 'Juan Baleiron', direccion: 'Pasaje Colgado 147'},
